@@ -13,7 +13,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top:10px;
     padding-left: 50px;
     padding-right: 50px;
     color: #F9FAF8;
@@ -25,6 +24,21 @@ body {
     flex-direction: row; */
     font-size: 24px;
     font-weight: bold;
+    padding-top: 50px;
+
+}
+
+.nav-bar-right {
+    /* display: flex;
+    flex-direction: row; */
+    padding-top: 50px;
+
+}
+
+.nav-bar-center-logo {
+    display: flex;
+    height: 125px;
+    border: 0px;
 }
 
 ul {
@@ -87,8 +101,8 @@ ul {
 .header-image {
     display: flex;
     flex-shrink: 2;
-    padding :50px;
-    height: 400px;
+    padding-bottom :60px;
+    height: 350px;
 }
 
 
@@ -97,7 +111,9 @@ ul {
     font-size: large;
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
 }
 
 /* Header CSS Above */
@@ -117,10 +133,15 @@ ul {
 
 }
 
+img {
+    border: 2.5px solid #1F2937;
+}
+
 .info {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap:50px;
+
 
 }
 
@@ -129,9 +150,19 @@ ul {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    width: 150px;
+    width: px;
     text-align: center;
+
 }
+
+.text {
+    padding-top:20px;
+    font-weight: bold;
+    font-size: x-large;
+    width: 220px;
+
+}
+
 
 /* Features section above */
 
