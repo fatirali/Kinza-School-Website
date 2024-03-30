@@ -1,19 +1,28 @@
 body {
     margin: 0px;
+    background-color: #F9FAF8;
 }
 
-
+/* .logo-image {
+    display: flex;
+    flex-direction: row;
+    height:50px;
+} */
 
 .nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top:10px;
     padding-left: 50px;
     padding-right: 50px;
     color: #F9FAF8;
+    
 }
 
 .nav-bar-left {
+    /* display: flex;
+    flex-direction: row; */
     font-size: 24px;
     font-weight: bold;
 }
@@ -45,8 +54,8 @@ ul {
 .header-title {
     display: flex;
     flex-direction: column;
-    width: 350px;
-
+    width: 450px;
+    gap: 20px;
 }
 
 .title {
@@ -79,7 +88,7 @@ ul {
     display: flex;
     flex-shrink: 2;
     padding :50px;
-    height: 300px;
+    height: 400px;
 }
 
 
