@@ -16,6 +16,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     color: #F9FAF8;
+    flex-wrap: wrap;
     
 }
 
@@ -54,6 +55,7 @@ ul {
 .header-body {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
     align-items: center;
@@ -100,9 +102,10 @@ ul {
 
 .header-image {
     display: flex;
-    flex-shrink: 2;
+    flex-shrink: 1;
     padding-bottom :60px;
     height: 350px;
+    max-height: 100%;
 }
 
 
@@ -139,9 +142,9 @@ img {
 
 .info {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    gap:50px;
-
+    flex-wrap:wrap;
 
 }
 
@@ -175,12 +178,12 @@ img {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
-
     padding: 75px;
 }
 
 .quote {
-    width: 800px;
+    /* width: 800px; */
+    flex-wrap: wrap;
     font-size: 36px;
     color:#1F2937;
     font-style: italic;
@@ -188,7 +191,7 @@ img {
 }
 
 .author {
-    width: 800px;
+    padding-top: 20px;
     font-size: 22px;
     display: flex;
     justify-content: flex-end;
@@ -201,12 +204,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .call-to-action-section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 80px;
     background-color: #3882F6;
@@ -216,7 +221,7 @@ img {
     color:#F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
     padding:30px;
-    gap:225px;
+    /* gap:225px; */
 }
 
 h4{
