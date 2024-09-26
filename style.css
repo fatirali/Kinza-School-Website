@@ -344,7 +344,7 @@ img {
     color:#F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
     padding:30px;
-    /* gap:225px; */
+    gap: auto;
 }
 
 h4{
